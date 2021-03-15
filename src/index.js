@@ -5,9 +5,8 @@ module.exports = function reverse (n) {
         str.reverse();
         str.unshift("-");
         str = str.join("");
-        return Number(str)
+        return Number(str);
     }
-        return (parseInt(n.toString().split('').reverse().join('')) * Math.sign(n))
-    }
+        return (parseInt(n.toString().split('').reverse().join('')) * Math.sign(n));
 }
 
